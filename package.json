@@ -1,0 +1,35 @@
+{
+  "name": "finka",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy",
+    "seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "convex": "^1.17.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1"
+  }
+}
